@@ -15,11 +15,12 @@ import Contactus from './components/contactus/Contactus';
 import Services from './components/services/Services';
 import Tabview from './components/tab/Tabview';
 import Loader from './components/workslider/preloader/preloader';
-import About from './components/about/about';
+// import About from './components/About/About1';
 import Marquee from './components/Marqueerunning/marquee';
 import Marqueerunning from './components/Marqueerunning/marquee';
 import Banner from './components/Banner/Banner';
 import Cursor from './components/Cursor/Cursor';
+import About from './components/About/About';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {
@@ -76,7 +77,7 @@ function App() {
               <Marqueerunning />
             </section>
             <section className=''>
-              <About />
+              <About/>
             </section>
             <section className='p-0'>
               <Parallax type="services" />
