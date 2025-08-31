@@ -24,10 +24,10 @@ const Marqueenew = () => {
             <span><FaArrowsToDot /></span>
         </li>
         <li>
-          
             UI Designer
             <span><FaArrowsToDot /></span>
         </li>
+     
         <li>
           
            Web Design
@@ -36,6 +36,10 @@ const Marqueenew = () => {
         <li>
           
            Responsive Web Design
+            <span><FaArrowsToDot /></span>
+        </li>
+           <li>
+            UI Developer
             <span><FaArrowsToDot /></span>
         </li>
         <li>
