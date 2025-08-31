@@ -16,7 +16,7 @@ import Services from './components/services/Services';
 import Tabview from './components/tab/Tabview';
 import Loader from './components/workslider/preloader/preloader';
 import Marquee from './components/Marqueerunning/marquee';
-import Marqueerunning from './components/Marqueerunning/marquee';
+import Marqueerunning from './components/Marqueerunning/Marquee';
 import Banner from './components/Banner/Banner';
 import Cursor from './components/Cursor/Cursor';
 import About from './components/About/About';
