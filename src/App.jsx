@@ -6,8 +6,8 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 import './App.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarnew from './components/navbar/Navbarnew';
-import Banner from './components/banner/banner';
-import { motion } from "framer-motion"
+import Banner from './components/Banner/Banner';
+// import { motion } from "framer-motion";
 
 import Parallax from './components/parallax/Parallax';
 import Workslider from './components/workslider/Workslider';
