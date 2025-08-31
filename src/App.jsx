@@ -21,6 +21,7 @@ import Banner from './components/Banner/Banner';
 import Cursor from './components/Cursor/Cursor';
 import About from './components/About/About';
 import Aboutnew from './components/About/Aboutnew';
+import Marqueenew from './components/Marqueerunning/Marqueenew';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {
@@ -74,7 +75,8 @@ function App() {
               <Banner />
             </section>
             <section className='p-0'>
-              <Marqueerunning />
+              <Marqueenew />
+              
             </section>
             <section className=''>
               <Aboutnew/>
@@ -86,7 +88,8 @@ function App() {
               <Tabview />
             </section>
             <section className='p-0'>
-              <Marqueerunning />
+              {/* <Marqueerunning /> */}
+              <Marqueenew />
             </section>
             <section>
               <Workslider />
