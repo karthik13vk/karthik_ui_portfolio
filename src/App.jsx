@@ -15,7 +15,6 @@ import Contactus from './components/contactus/Contactus';
 import Services from './components/services/Services';
 import Tabview from './components/tab/Tabview';
 import Loader from './components/workslider/preloader/preloader';
-import Cursor from './components/Cursor/Cursor';
 import Aboutnew from './components/About/Aboutnew';
 import Marqueenew from './components/Marqueerunning/Marqueenew';
 import Bannernew from './components/Banner/Bannernew';
@@ -57,7 +56,6 @@ function App() {
       <div>
         {loading ? (
           <>
-            {/* <Cursor /> */}
             <Cursornew />
             <div className={`loader-container ${fadeOut ? 'fade-out' : ''}`}>
               <Loader />
