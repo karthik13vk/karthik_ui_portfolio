@@ -19,6 +19,7 @@ import Cursor from './components/Cursor/Cursor';
 import Aboutnew from './components/About/Aboutnew';
 import Marqueenew from './components/Marqueerunning/Marqueenew';
 import Bannernew from './components/Banner/Bannernew';
+import Cursornew from './components/Cursor/Cursornew';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {
@@ -56,7 +57,8 @@ function App() {
       <div>
         {loading ? (
           <>
-            <Cursor />
+            {/* <Cursor /> */}
+            <Cursornew />
             <div className={`loader-container ${fadeOut ? 'fade-out' : ''}`}>
               <Loader />
             </div>
