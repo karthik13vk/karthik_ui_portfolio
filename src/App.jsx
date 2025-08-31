@@ -15,11 +15,7 @@ import Contactus from './components/contactus/Contactus';
 import Services from './components/services/Services';
 import Tabview from './components/tab/Tabview';
 import Loader from './components/workslider/preloader/preloader';
-// import Marquee from './components/Marqueerunning/marquee';
-// import Marqueerunning from './components/Marqueerunning/Marquee';
-import Banner from './components/Banner/Banner';
 import Cursor from './components/Cursor/Cursor';
-import About from './components/About/About';
 import Aboutnew from './components/About/Aboutnew';
 import Marqueenew from './components/Marqueerunning/Marqueenew';
 import Bannernew from './components/Banner/Bannernew';
@@ -73,7 +69,6 @@ function App() {
         <div id="smooth-wrapper">
           <div id="smooth-content">
             <section className='pb-0'>
-              {/* <Banner /> */}
               <Bannernew />
             </section>
             <section className='p-0'>
@@ -90,7 +85,6 @@ function App() {
               <Tabview />
             </section>
             <section className='p-0'>
-              {/* <Marqueerunning /> */}
               <Marqueenew />
             </section>
             <section>
