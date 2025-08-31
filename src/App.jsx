@@ -12,7 +12,6 @@ import Navbarnew from './components/navbar/Navbarnew';
 import Parallax from './components/parallax/Parallax';
 import Workslider from './components/workslider/Workslider';
 import Contactus from './components/contactus/Contactus';
-import Cursor from './components/cursor/cursor';
 import Services from './components/services/Services';
 import Tabview from './components/tab/Tabview';
 import Loader from './components/workslider/preloader/preloader';
@@ -20,6 +19,7 @@ import About from './components/about/about';
 import Marquee from './components/Marqueerunning/marquee';
 import Marqueerunning from './components/Marqueerunning/marquee';
 import Banner from './components/Banner/Banner';
+import Cursor from './components/Cursor/Cursor';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {

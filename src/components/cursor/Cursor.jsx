@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { motion, useInView } from "framer-motion";
-import "./cursor.scss";
+import "./Cursor.scss";
 
 
 const  Cursor = () => {
