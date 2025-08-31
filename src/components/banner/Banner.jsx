@@ -58,9 +58,8 @@ const sliderVariants = {
 
 
 const Banner = () => {
- 
-    return (
-        <div className="banner" id="/">
+  return (
+         <div className="banner" id="/">
             <div className="container">
                 <div className="wrapper">
                     <motion.div className="textContainer" variants={textVariants} initial="initial"
@@ -92,8 +91,7 @@ const Banner = () => {
 
 
         </div>
-    )
+  )
 }
-
 
 export default Banner

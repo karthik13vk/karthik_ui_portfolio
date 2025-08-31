@@ -6,7 +6,7 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 import './App.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarnew from './components/navbar/Navbarnew';
-import Banner from './components/Banner/Banner';
+// import Banner from './components/Banner/Banner';
 // import { motion } from "framer-motion";
 
 import Parallax from './components/parallax/Parallax';
@@ -19,6 +19,7 @@ import Loader from './components/workslider/preloader/preloader';
 import About from './components/about/about';
 import Marquee from './components/Marqueerunning/marquee';
 import Marqueerunning from './components/Marqueerunning/marquee';
+import Banner from './components/Banner/Banner';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {
