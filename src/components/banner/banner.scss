@@ -1,0 +1,109 @@
+@import "../../App.scss";
+
+.banner {
+    overflow: hidden;
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+
+    .imgcontainer {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        @include mobile {
+            height: 50%;
+            width: 100%;
+            top: unset;
+            bottom: 0;
+            position: relative;
+        }
+        @include table{
+            height: 100%;
+            width: 100%;
+            top: unset;
+            bottom: 0;
+            position: relative;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .wrapper {
+        // max-width: 1366px;
+        // margin: auto;
+        height: 100%;
+        .textContainer {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            position: relative;
+            z-index: 2;
+
+            @include mobile {
+                width: 100%;
+                height: 50vh;
+                gap: 20px;
+                text-align: center;
+                align-items: center;
+            }
+            @include table{
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 30px;
+                color: #1ed5e7;
+                letter-spacing: 10px;
+            }
+
+            h1 {
+                font-size: 88px;
+                @include desktop {
+                    font-size: 70px;
+                }
+
+                @include mobile {
+                    font-size: 40px;
+                }
+            }
+            .buttons {
+                cursor: pointer;
+                a {
+                    padding: 12px 8px;
+                    border: 1px solid #fff;
+                    border-radius: 10px;
+                    background: transparent;
+                    color: #fff;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    font-weight: 300;
+                    position: relative;
+                    z-index: 0;
+                }
+            }
+            img {
+                width: 50px;
+            }
+        }
+    }
+    .slidingTextContainer {
+        font-size: 50vh;
+        position: absolute;
+        bottom: -120px;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 50%;
+        font-weight: bold;
+        z-index: 0;
+    }
+}
+#banner{
+    scroll-margin-top: 300px!important;
+}

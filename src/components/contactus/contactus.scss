@@ -1,0 +1,122 @@
+@import "../../App.scss";
+section {
+  @include mobile {
+    padding: 60px 0!important;
+  }
+    @include table {
+         padding: 60px 0!important;
+    }
+}
+.contactus {
+  height: 100%;
+  // max-width: 1366px;
+  // margin: auto;
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
+  // gap: 20px;
+  position: relative;
+
+  .contactgrid {
+    height: 100%;
+    // max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .contactcontent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    @include mobile {
+      gap: 20px;
+    }
+    @include table {
+      gap: 20px;
+    }
+
+    h1 {
+      font-size: 100px;
+      line-height: 1;
+      @include mobile {
+        font-size: 50px;
+      }
+      @include table {
+        font-size: 80px;
+      }
+    }
+
+    span {
+      font-weight: 500;
+      a {
+        &:hover {
+          color: #1ed5e7;
+        }
+      }
+    }
+  }
+
+  .formcontainer {
+    flex: 1;
+    @include mobile {
+      margin-top: 50px;
+    }
+    @include table {
+      margin-top: 50px;
+    }
+    .phonesvg {
+      stroke: #1ed5e7;
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+
+      svg {
+        @include mobile {
+          width: 100%;
+          height: 100%;
+        }
+        @include table {
+          width: 100%;
+          height: 100%;
+          margin: auto;
+        }
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    input,
+    textarea {
+      padding: 20px;
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 20px;
+      border: none;
+      cursor: pointer;
+      background-color: #1ed5e7;
+      font-weight: 500;
+    }
+  }
+}
+
+#contact {
+  scroll-margin-top: 200px;
+}
+.copyright-section {
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 10px;
+}

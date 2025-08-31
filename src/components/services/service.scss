@@ -1,0 +1,101 @@
+.services {
+    .wrapper {
+        max-width: 1366px;
+        margin: auto;
+        height: 100%;
+
+        .service-section {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .services-gird {
+                display: grid;
+                gap: 20px;
+                grid-template-columns: auto auto;
+
+                .serrive-inner-flex {
+                    display: flex;
+                    gap: 10px;
+                    flex-flow: column;
+                    transition: all .5s;
+
+                    .service-head {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .ser-num {
+                            font-size: 40px;
+                            font-weight: 500;
+                            -webkit-text-stroke-width: 1px;
+                            -webkit-text-stroke-color: #efe9e9;
+                            color: transparent;
+                            transition: all .5s;
+                        }
+
+                        .service-link {
+                            width: 50px;
+                            height: 50px;
+                            background-color: #fff;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #333;
+                            font-size: 20px;
+                            font-weight: 500;
+                            transition: all .5s;
+
+                            &:hover {
+                                rotate: -45deg;
+                            }
+
+                        }
+                    }
+
+                    .ser-title {
+                        font-size: 45px;
+                        font-weight: 600;
+                        transition: all .5s;
+                        // &:hover {
+                        //     color: #1ed5e7;
+                        // }
+                    }
+
+                    &:hover {
+                        .service-head {
+                            .ser-num {
+                                -webkit-text-stroke-color: #1ed5e7;
+                                color: transparent;
+                            }
+
+                            .service-link {
+                                background-color: #1ed5e7;
+                            }
+                        }
+
+                        .ser-title {
+                            color: #1ed5e7;
+                        }
+
+                    }
+                }
+
+            }
+
+            .servi-border {
+                border-bottom: 1px solid #fefefe75;
+                padding: 10px;
+                margin-bottom: 10px;
+
+
+            }
+
+        }
+
+
+    }
+
+}

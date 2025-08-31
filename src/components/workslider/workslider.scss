@@ -1,0 +1,218 @@
+@import "../../App.scss";
+.sliderinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding: 50px;
+  height: 100%;
+
+  .wrapper {
+    // max-width: 1366px;
+    margin: auto;
+    height: 100%;
+  }
+
+  .sliderdetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    @include mobile {
+      flex-direction: column;
+    }
+    @include table {
+      flex-direction: column;
+    }
+  }
+
+  .slidercontent {
+    width: 50%;
+    @include mobile {
+      width: 100%;
+    }
+    @include table {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 80px;
+      font-weight: 600;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #efe9e9;
+      color: transparent;
+    }
+
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+      color: #fff;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      @include mobile {
+        height: 380px;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      @include mobile {
+        padding-left: 0;
+      }
+      @include table {
+        padding-left: 0;
+      }
+
+      li {
+        color: #1ed5e7;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+    }
+
+    .border-top {
+      border-top: 0.5px solid #414040;
+      margin: 20px 0;
+      padding-top: 15px;
+    }
+  }
+
+  .sliderimg {
+  }
+
+  .TooltipContent {
+    background: black;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .TooltipTrigger {
+    cursor: pointer;
+  }
+
+  button {
+    background-color: transparent;
+    color: white;
+
+    &:hover {
+      border: transparent;
+    }
+  }
+
+  .sliderinner button {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    padding: 0;
+  }
+
+  .tooltip-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #414040;
+    padding: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background-color: #1ed5e7;
+      color: #333;
+    }
+  }
+
+  .sliderimg-main {
+    width: 50%;
+    @include mobile {
+      width: 100%;
+    }
+    @include table {
+      width: 100%;
+    }
+
+    .slider-height {
+      height: 520px;
+      margin-bottom: 12px;
+      @include mobile {
+        height: 350px;
+      }
+    }
+    .sliderimg {
+      height: 420px;
+      position: relative;
+      background-color: rgb(80 80 80);
+      @include mobile {
+        height: 100%;
+      }
+      @include table {
+        height: 100%;
+      }
+    }
+
+    .innerslider-part {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        @include mobile {
+          width: 100%;
+        }
+        @include table {
+          width: 100%;
+        }
+      }
+    }
+
+    .slidermainbtn button {
+      background-color: #1ed5e7;
+      color: #333;
+      font-size: 20px;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      text-align: center;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 999;
+    }
+    .swiper-wrapper {
+      height: auto;
+      @include mobile {
+        height: 250px;
+      }
+
+      @include table {
+        height: 380px;
+      }
+    }
+    .slidermainbtn > div:first-child {
+      display: flex;
+      justify-content: start;
+      margin-top: 20px;
+      gap: 20px;
+    }
+    button:focus,
+    button:focus-visible {
+      outline: none;
+    }
+  }
+}
+
+#project {
+  scroll-margin-top: 200px;
+}

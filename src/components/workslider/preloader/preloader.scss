@@ -1,0 +1,23 @@
+/* preloader.scss */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0 0 0);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    z-index: 9999999;
+    width: 100%;
+    opacity: 1;  /* Initial opacity */
+    transition: opacity 1s ease-out; /* Smooth fade-out effect */
+}
+  
+  .text-white {
+    color: #fff; /* Ensure text color is white */
+  }
+  .loader-container.fade-out {
+    opacity: 0;  /* Make the loader fade out */
+  }
