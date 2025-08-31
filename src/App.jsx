@@ -22,6 +22,7 @@ import Cursor from './components/Cursor/Cursor';
 import About from './components/About/About';
 import Aboutnew from './components/About/Aboutnew';
 import Marqueenew from './components/Marqueerunning/Marqueenew';
+import Bannernew from './components/Banner/Bannernew';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 function App() {
@@ -72,7 +73,8 @@ function App() {
         <div id="smooth-wrapper">
           <div id="smooth-content">
             <section className='pb-0'>
-              <Banner />
+              {/* <Banner /> */}
+              <Bannernew />
             </section>
             <section className='p-0'>
               <Marqueenew />
