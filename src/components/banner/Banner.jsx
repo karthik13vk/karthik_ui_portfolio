@@ -1,5 +1,5 @@
 import React from 'react'
-import "./banner.scss"
+import "./Banner.scss"
 import banner from "./banner-img.png";
 import scrollimg from "./../../../public/scroll.png";
 import download from "./download.svg";
